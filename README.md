@@ -17,9 +17,9 @@ If you wonder how I customised Termux, including the Fetch I made there,<br>I pl
 ### Main
 
 This is a demo for a proposed TUI app for the CLI of AeroFTP 🚀, namely `aeroftp-cli profiles -i`. Hence,
-<br>this repo on purpose has the same GPL-3.0 license. As such, it displays the same options as it for the user to choose from.
-<br>I specifically proposed this demo for AeroFTP in its v4 wishlist post here: https://github.com/axpdev-lab/aeroftp/discussions/270#discussioncomment-17137604.
-<br>The idea is to improve the speed and comfort of using interactive CLI over the experience that `aeroftp-cli profiles -i`, `rclone config` and others provide. 
+<br>this repo on purpose has the same GPL-3.0 license. As such, it displays the same options as it for the user to choose from. I specifically proposed this demo for AeroFTP in its v4 wishlist post here: https://github.com/axpdev-lab/aeroftp/discussions/270#discussioncomment-17137604.
+<br>The idea is to improve the speed and comfort of using interactive CLI over the experience that
+<br>`aeroftp-cli profiles -i`, `rclone config` and others provide. 
 <br>This demo can be used to improve the CLI of more other apps, and such improvements are welcome.
 
 So what does this demo do? Well, in a nutshell, it allows the user to select an option out of several in the terminal like Y/N, for example when you're being asked whether you want to install a package in the terminal or not.
@@ -58,8 +58,7 @@ So what does this demo do? Well, in a nutshell, it allows the user to select an 
 
 Below is shown what this demo looks like in PowerShell (Windows) and Termux (Android). This should work wherever NodeJS run, so on other OS as well. To run this demo, save it as a file and run in a terminal: `node "Path to where you saved this script/UnbufferedInputRawMode.js`. This is what I call this script, because this is what I understand this concept is technically called. I like to use `$Home` (`C:\Users\<UserName>`) and `/sdcard` (`storage/shared`) shortcuts for paths in PowerShell and Termux as you'll see below. Each option has its own message and function, and I demonstrate List/ls here for the current directory from which this demo runs.
 
-There is also a KeyboardTest.js file here as well which you can run in the same way, and what it does is it tests the code that NodeJS has for various key presses, including combinations with Shift ⇧, Ctrl and Alt.
-<br>This is useful if you want to add more keys and combinations to control UnbufferedInputRawMode.js, or for other applications.
+There is also a KeyboardTest.js file here as well which you can run in the same way, and what it does is it tests the code that NodeJS has for various key presses, including combinations with Shift ⇧, Ctrl and Alt. This is useful if you want to add more keys and combinations to control UnbufferedInputRawMode.js, or for other applications.
 
 You can save both scripts as files by copying them or downloading them, as they're also attached.
 <br>Both scripts are entirely self-contained and require no external dependencies to work, not even each other.
@@ -220,7 +219,6 @@ I chose NodeJS because that's the easiest runtime for me to work with,
 I use pwsh inside Alacritty and WezTerm.
 <Br>If you wonder how, I'll publish a repo on this in the future and link it here, so stay tuned for that.
 
-If you're curious how I screen-recorded my phone, it has that option as a quick tile. If you wonder how I showed a cursor in the preview, I used the 'Remote input' feature of KDE Connect. I connected over USB Tethering 🔌 to keep latency low.
-<br>If you're curious how my phone's keyboard had those ∧ ∨ < > keys, I use the FUTO keyboard app.
+If you're curious how I screen-recorded my phone, it has that option as a quick tile. If you wonder how I showed a cursor in the preview, I used the 'Remote input' feature of KDE Connect. I connected over USB Tethering 🔌 to keep latency low. If you're curious how my phone's keyboard had those ∧ ∨ < > keys, I use the FUTO keyboard app.
 
 The code blocks in this table are WinGet Package IDs to search for in UniGetUI/WinGet and a command line to enter in Termux to install.
